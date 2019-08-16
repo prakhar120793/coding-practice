@@ -26,6 +26,26 @@
   
 </details>
 
+<details>
+  <summary>Question 2: Largest Area in Histogram (https://leetcode.com/problems/largest-rectangle-in-histogram/)</summary>
+    
+  ##### Solution
+  * (Probable Solution) For every i, find the area treating the ith bar as the smallest bar in the rectangle.
+  * Max of all the probable solutions is the answer
+  * To find answer for ith bar we need to know the next smallest bar on the left and right side.
+  * Next smallest for all the bar (on both sides) can be found using the stack based approach in O(n) time. Link to solution: https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/
+  ##### Time Complexity
+  * O(n)
+  ##### Space Complexity
+  * O(n)     
+  ##### Base Cases
+  * Empty input
+  * Single bar as input
+  * For ith bar: No bar is smaller on the right
+  * For ith bar: No bar is smaller on the left
+    
+</details>
+
 
 
 
