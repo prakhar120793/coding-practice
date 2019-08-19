@@ -71,6 +71,24 @@
 
 
 
+<details>
+  <summary>Question 4: Maximum Gap (https://leetcode.com/problems/maximum-gap/solution/)</summary>
+  
+  ##### Solution
+  * The minimum value for the maximum gap is t=(max-min)/n. Assume all the values in the array are equally spaced (t is the gap in that case). If we change any of the value from equally spaced then the maximum gap increases.
+  * The idea is to have n buckets of t size. If the values are not equally spaced then some buckets would have more than one value and some buckets would be empty.
+  * To find the maximum gap then we have compare adjacent buckets. We can skip comparison inside the bucket since the gap is less than t (minimum value for maximum gap).   
+  
+  ##### Time Complexity
+  * O(n)
+  ##### Space Complexity
+  * O(n)
+  ##### Base Cases
+  * Empty Input.
+  * Handling odd number of elements.
+</details>
+
+
 
 
 
