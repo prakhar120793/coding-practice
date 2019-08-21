@@ -62,7 +62,7 @@
   * O(n)
   ##### Space Complexity
   * O(n)
-  ##### Base Cases
+  ##### Edge Cases
   * Empty Input.
   * Decreasing Order.
   * Single Input Value.  
@@ -83,12 +83,21 @@
   * O(n)
   ##### Space Complexity
   * O(n)
-  ##### Base Cases
+  ##### Edge Cases
   * Empty Input.
   * Handling odd number of elements.
 </details>
 
 
 
+#### Recursion
+<details>
+  <summary>Question 1: Reveal Cards in Increasing Order (https://leetcode.com/problems/reveal-cards-in-increasing-order)</summary>
+  
+  ##### Recursive formula
+  * Refer to the code for the recursive solution.
+  
+   
+</details>
 
 
