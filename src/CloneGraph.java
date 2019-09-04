@@ -13,7 +13,7 @@ import java.util.Map;
  *
  * Complexity? How to handle the node when already visited node occurs?
  *
- * DFS... When already visited node occurs as the child then put that reference itself. Maintain a map for already visited nodes.
+ * DFS... When already visited node occurs as the child then put that reference itself. Maintain a graph for already visited nodes.
  */
 public class CloneGraph {
     class Node {

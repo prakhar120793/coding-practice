@@ -104,6 +104,23 @@
 #### Trees
 <details>
   <summary>Question 1: Maximum Level Sum of Binary Tree (https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)</summary>
+</details>
 
+<details>
+  <summary>Question 2: Verify Preorder Serialization (https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)</summary>
+  
+  * Solution link: https://www.programcreek.com/2015/01/leetcode-verify-preorder-serialization-of-a-binary-tree-java/
+  * Hint: Start merging the leaves until only a single leaf '#' is left.
+  * Data Structure: Stack.
+  
+  
+#### Heap
+<details>
+  <summary>Question 1: Find median in a data stream (https://leetcode.com/problems/find-median-from-data-stream/)</summary>
+  
+  * Solution link: https://leetcode.com/problems/find-median-from-data-stream/
+  * Hint: Use 2 heaps. Finding the median would be O(1) and insertion into the data structure would be O(log n).
+</details>
+  
 </details>
 
