@@ -113,6 +113,7 @@
   * Hint: Start merging the leaves until only a single leaf '#' is left.
   * Data Structure: Stack.
   
+</details>
   
 #### Heap
 <details>
