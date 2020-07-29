@@ -27,11 +27,8 @@
     * Player position should not be in the board. It is not the responsibility of the board to hold the player position,
      board in itself is an independent entity. Current Player positions + Board make a game. 
 
-
-
 ## Java specific points
 * Package names are in small case.
 
 ## Some important things to note
-* Add validations in public methods.
- 
+* Add validations in public methods. 
