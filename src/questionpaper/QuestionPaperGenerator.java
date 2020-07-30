@@ -1,4 +1,8 @@
-package questionpaper.model;
+package questionpaper;
+
+import questionpaper.model.QuestionBank;
+import questionpaper.model.QuestionPaper;
+import questionpaper.model.QuestionPaperTemplate;
 
 public class QuestionPaperGenerator {
     private final QuestionBank questionBank;

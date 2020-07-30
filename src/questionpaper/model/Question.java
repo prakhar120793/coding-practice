@@ -8,6 +8,7 @@ public class Question {
     private final String questionId;
 
     public Question(Difficulty difficulty, Topic topic, int marks, String text, String questionId) {
+        //validation
         this.difficulty = difficulty;
         this.topic = topic;
         this.marks = marks;
